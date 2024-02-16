@@ -2,9 +2,11 @@
   "name": "platon",
   "version": "0.0.23",
   "type": "module",
+  "homepage": "https://bereezzz.github.io/ui-demo",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "ts:check": "tsc --noEmit",
     "eslint:check": "eslint --max-warnings 0 --ext .jsx,.js,.ts,.tsx src/",
@@ -43,6 +45,7 @@
     "@radix-ui/react-tooltip": "1.0.7",
     "classnames": "^2.5.1",
     "framer-motion": "10.17.4",
+    "gh-pages": "^6.1.1",
     "platon": "^0.0.25",
     "react-paginate": "8.2.0",
     "sass": "^1.71.0"

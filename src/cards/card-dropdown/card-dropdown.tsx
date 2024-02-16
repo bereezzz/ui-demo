@@ -24,7 +24,7 @@ const dataDropdown = [
 
 export const CardDropdown = () => {
     const [value, setValue] = useState<string | undefined>(undefined);
-    const [item, setItem] = useState('');
+    const [, setItem] = useState('');
 
     return (
         <Widgets title="Form dropdown" size="small" description="Тестовая форма с выпадающими списками">
