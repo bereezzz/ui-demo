@@ -1,5 +1,6 @@
 import styles from './root.module.scss'
 import { CardSwitch, CardForm, CardCheckbox, CardAccardion, CardTabs, CardDropdown, CardDatePicker } from './cards'
+import cn from 'classnames'
 function App() {
 
 
@@ -7,7 +8,7 @@ function App() {
     <div className={styles.area} >
       <div className={styles.wrapper}>
         <div style={{ display: 'flex', gap: "12px" }}>
-          <div className={styles.column}>
+          <div className={cn(styles.column, styles.margin)}>
             <CardSwitch />
             <CardAccardion />
           </div>
@@ -16,7 +17,7 @@ function App() {
             <CardDatePicker />
             <CardDropdown />
           </div>
-          <div className={styles.column}>
+          <div className={cn(styles.column, styles.margin)}>
             <CardCheckbox />
             <CardTabs />
           </div>
