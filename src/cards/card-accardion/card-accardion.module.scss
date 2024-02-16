@@ -1,0 +1,12 @@
+.accordionWrapper {
+    margin-top: 24px;
+
+    p {
+        color: white
+    }
+
+    [data-orientation]{
+        background-color: black;
+        width: auto;
+    }
+}

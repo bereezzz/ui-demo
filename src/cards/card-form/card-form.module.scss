@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    label {
+        color: white;
+    }
+}
+
+.wrapperButton {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

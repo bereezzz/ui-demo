@@ -1,0 +1,11 @@
+build/
+node_modules/
+configs/
+lib/
+__mocks__/
+.idea/
+.vscode/
+lib/
+dist/
+cli.js
+vite.config.ts

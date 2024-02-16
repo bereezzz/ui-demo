@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+
+    [data-calendar] {
+        background-color: white;
+    }
+}

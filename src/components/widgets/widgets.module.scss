@@ -1,0 +1,39 @@
+.widgets {
+    box-sizing: border-box;
+    padding: 24px;
+    width: auto;
+    border-radius: 12px;
+    background-color: black;
+    opacity: 0.7;
+    border: 1px solid rgb(105, 104, 104);
+    box-shadow: 3px 2px 9px 2px rgba(34, 60, 80, 0.08);
+    z-index: 10000;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description {
+    color: #f1f7ffb5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.small {
+    width: 300px;
+}
+
+.medium {
+    width: 350px;
+}
+
+.large {
+    width: 400px;
+}

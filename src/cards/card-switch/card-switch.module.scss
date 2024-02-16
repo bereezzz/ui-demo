@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.wrapperItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.description {
+    font-size: 14px;
+    color: #f1f7ffb5;
+}
+
+.hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
