@@ -3,9 +3,9 @@
     padding: 24px;
     width: auto;
     border-radius: 12px;
-    background-color: black;
-    opacity: 0.7;
-    border: 1px solid rgb(105, 104, 104);
+    background-color: var(--color-bg-widgets);
+    opacity: var(--base-opacity-widgets);
+    border: 1px solid var(--color-border-widgets);
     box-shadow: 3px 2px 9px 2px rgba(34, 60, 80, 0.08);
     z-index: 10000;
 }

@@ -1,0 +1,7 @@
+:root {
+    --color-base-outside: #4e54c8;
+    --color-base-cube: rgba(255, 255, 255, 0.2);
+    --color-bg-widgets: #020617;
+    --color-border-widgets: rgb(105, 104, 104);
+    --base-opacity-widgets: 0.7;
+}
