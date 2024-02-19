@@ -1,5 +1,5 @@
 import { Widgets } from "../../components/widgets/widgets"
-import { Select, Button, FormItem, SelectOption, Dropdown, DropdownItem } from "platon";
+import { Select, Button, FormItem, SelectOption, Dropdown, DropdownItem, Tag } from "platon";
 import styles from './card-dropdown.module.scss';
 import { useState } from "react";
 
@@ -27,7 +27,9 @@ export const CardDropdown = () => {
     const [, setItem] = useState('');
 
     return (
-        <Widgets title="Form dropdown" size="small" description="Тестовая форма с выпадающими списками">
+        <Widgets title="Form dropdown"
+            size="large"
+            description={<>Тестовая форма с выпадающими списками <div className={styles.tag}> <Tag >dropdown</Tag> <Tag >select</Tag></div></>}>
             <div className={styles.wrapper}>
                 <FormItem label='Email address'>
                     <Select onChange={setValue} value={value} placeholder="Выберите...">

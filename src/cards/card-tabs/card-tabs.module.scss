@@ -10,3 +10,12 @@
 .text {
     margin-top: 12px;
 }
+
+.loader {
+    width: 100%;
+    height: 240px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

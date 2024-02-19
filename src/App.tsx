@@ -1,5 +1,5 @@
 import styles from './root.module.scss'
-import { CardSwitch, CardForm, CardCheckbox, CardAccardion, CardTabs, CardDropdown, CardDatePicker } from './cards'
+import { CardSwitch, CardForm, CardCheckbox, CardAccardion, CardTabs, CardDropdown, CardDatePicker, CardModal } from './cards'
 import cn from 'classnames'
 function App() {
 
@@ -10,11 +10,12 @@ function App() {
         <div className={cn(styles.column, styles.margin)}>
           <CardSwitch />
           <CardAccardion />
+          <CardDropdown />
         </div>
         <div className={styles.column}>
           <CardForm />
           <CardDatePicker />
-          <CardDropdown />
+          <CardModal />
         </div>
         <div className={cn(styles.column, styles.margin)}>
           <CardCheckbox />

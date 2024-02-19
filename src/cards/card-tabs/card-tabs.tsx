@@ -1,5 +1,5 @@
 import { Widgets } from "../../components/widgets/widgets"
-import { Tabs, Tab } from "platon";
+import { Tabs, Tab, Loader } from "platon";
 import styles from './card-tabs.module.scss'
 
 
@@ -24,12 +24,8 @@ export const CardTabs = () => {
                     </div>
                 </Tab>
                 <Tab key="tab2" value="tab2">
-                    <div className={styles.text}>
-                        Картельные сговоры не допускают ситуации, при которой стремящиеся вытеснить
-                        традиционное производство, нанотехнологии своевременно верифицированы.
-                        Противоположная точка зрения подразумевает, что непосредственные участники
-                        технического прогресса неоднозначны и будут преданы социально-демократической
-                        анафеме.
+                    <div className={styles.loader}>
+                      <Loader/>
                     </div>
                 </Tab>
             </Tabs>
